@@ -1,4 +1,4 @@
-Instalación del Proyecto React
+reInstalación del Proyecto React
 
 Sigue estos pasos para instalar y ejecutar el proyecto después de clonarlo.
 
