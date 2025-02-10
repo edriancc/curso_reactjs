@@ -17,6 +17,7 @@ const ProductDetail = ({ product, isOpen, onClose }) => {
         <section className="modal-card-body">
           <p className="has-text-weight-bold">Precio: {product.price}</p>
           <p className="has-text-weight-bold">Cuotas: {product.quotas}</p>
+          <p className="has-text-weight-bold">Codigo: {product.sku}</p>
           <p className="mt-4">{product.longDescription}</p>
         </section>
         <footer className="modal-card-foot">

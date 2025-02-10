@@ -64,6 +64,7 @@ const Home = () => {
                       <div className="card-content">
                         <p className="title is-4 has-text-centered">{product.name}</p>
                         <p className="subtitle is-6 has-text-centered">{product.description}</p>
+                        <p className="subtitle is-6 has-text-centered">{product.sku}</p>
                         <div className="content has-text-centered">
                           <p className="has-text-weight-bold">Precio: {product.price}</p>
                           <p>Cuotas: {product.quotas}</p>
@@ -93,6 +94,7 @@ const Home = () => {
                       <div className="card-content">
                         <p className="title is-4 has-text-centered">{product.name}</p>
                         <p className="subtitle is-6 has-text-centered">{product.description}</p>
+                        <p className="subtitle is-6 has-text-centered">{product.sku}</p>
                         <div className="content has-text-centered">
                           <p className="has-text-weight-bold">Precio: {product.price}</p>
                           <p>Cuotas: {product.quotas}</p>
